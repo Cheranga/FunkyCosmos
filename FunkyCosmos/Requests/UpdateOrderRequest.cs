@@ -5,7 +5,7 @@ using FunkyCosmos.Models;
 
 namespace FunkyCosmos.Requests
 {
-    public class UpdateOrderRequest
+    public class UpdateOrderRequest : IValidatable
     {
         public int CustomerId { get; set; }
         public Guid OrderId { get; set; }

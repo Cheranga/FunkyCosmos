@@ -5,7 +5,7 @@ using FunkyCosmos.Models;
 
 namespace FunkyCosmos.Requests
 {
-    public class CreateOrderRequest
+    public class CreateOrderRequest : IValidatable
     {
         public CreateOrderRequest()
         {
